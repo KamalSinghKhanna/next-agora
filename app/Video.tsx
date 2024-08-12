@@ -1,7 +1,9 @@
 
 "use client"
+import dynamic from "next/dynamic";
 import { useState } from "react";
-import AgoraUIKit from "agora-react-uikit";
+
+const AgoraUIKit = dynamic(() => import("agora-react-uikit"), { ssr: false });
 const Video = () => {
   const [videoCall, setVideoCall] = useState(false);
   const rtcProps = {
