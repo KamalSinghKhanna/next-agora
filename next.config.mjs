@@ -1,10 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-//       experimental: {
-//     serverComponentsExternalPackages: ["umzug", "jju"],
-//   },
+      experimental: {
+    serverComponentsExternalPackages: ["umzug", "jju"],
+  },
 
-    experimental: { serverMinification: false },
+    // experimental: { serverMinification: false },
       swcMinify: false,
 
 };
