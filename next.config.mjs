@@ -3,8 +3,9 @@ const nextConfig = {
 //       experimental: {
 //     serverComponentsExternalPackages: ["umzug", "jju"],
 //   },
-//   swcMinify: false,
-    experimental: { serverMinification: false }
+
+    experimental: { serverMinification: false },
+      swcMinify: false,
 
 };
 
